@@ -63,3 +63,7 @@ function atualizaEstatistica(operacao, peca) {
     })
 };
 
+function trocaImagem(cor){
+    document.querySelector(".robo").src="img/imagens-do-robotron/Robotron 2000 - " + cor + ".png";
+ }
+
