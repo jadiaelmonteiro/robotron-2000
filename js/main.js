@@ -96,6 +96,7 @@ function setColor(color) {
 
     if(color == "Azul") {
         color = "blue";
+        document.querySelector(".box1").style="background-color: " + color;
         document.querySelector(".controle1").style="background-color: " + color;
         document.querySelector(".controle2").style="background-color: " + color;
         document.querySelector(".controle3").style="background-color: " + color;
@@ -105,6 +106,7 @@ function setColor(color) {
 
     if(color == "Rosa") {
         color = "pink";
+        document.querySelector(".box1").style="background-color: " + color;
         document.querySelector(".controle1").style="background-color: " + color;
         document.querySelector(".controle2").style="background-color: " + color;
         document.querySelector(".controle3").style="background-color: " + color;
@@ -114,6 +116,7 @@ function setColor(color) {
 
     if(color == "Vermelho") {
         color = "red";
+        document.querySelector(".box1").style="background-color: " + color;
         document.querySelector(".controle1").style="background-color: " + color;
         document.querySelector(".controle2").style="background-color: " + color;
         document.querySelector(".controle3").style="background-color: " + color;
@@ -123,6 +126,7 @@ function setColor(color) {
 
     if(color == "Amarelo") {
         color = "yellow";
+        document.querySelector(".box1").style="background-color: " + color;
         document.querySelector(".controle1").style="background-color: " + color;
         document.querySelector(".controle2").style="background-color: " + color;
         document.querySelector(".controle3").style="background-color: " + color;
